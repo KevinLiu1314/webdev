@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="2">
+    <title>Class and ID</title>
+    <!-- <style>body {color: red;}</style> -->
+    <style>
+        #emphasis {
+            color: red;
+        }
+        
+        .emphasis {
+            color: green;
+        }
+
+        li:nth-child(1) {
+            color: orange;
+        }
+
+        ul:first-of-type li:nth-child(4) {
+            color: purple;
+        }
+
+        .Third li:nth-child(4) {
+            background: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li> This </li>
+        <li class="emphasis"> is </li>
+        <li> my </li>
+        <li> list </li>
+    </ul>
+
+    <ul>
+        <li> This </li>
+        <li> is </li>
+        <li class="emphasis"> my </li>
+        <li> list </li>
+    </ul>
+
+    <ol class="Third">
+        <li> This </li>
+        <li> is </li>
+        <li id="emphasis"> my </li>
+        <li> list </li>
+    </ol>
+</body>
+</html>

@@ -1,0 +1,58 @@
+body {
+    margin: 5px;
+    background: #999;
+}
+
+header {
+    background: green;
+    color: white;
+    padding: 10px 10px 10px 10px;
+}
+
+header nav {
+    background: blue;
+    padding: 10px 10px 10px 10px;
+}
+
+header nav h1 {
+    /*margin: 0;*/
+    /*display: inline-block;*/
+    /*color: yellow;*/
+    background: gray;
+}
+
+header nav ul {
+    background: red;
+    padding: 10px 10px 10px 10px;
+}
+
+header nav ul li {
+    background: purple;
+    /*color: white;*/
+    display: inline;
+    list-style-type: none;
+    padding: 5px 15px 5px 0px;
+}
+
+header nav ul li a {
+    /*color: white;*/
+    background: yellow;
+}
+
+.row {
+
+}
+
+.col {
+    background: #333;
+    border-radius: 5px;
+    color: white;
+    padding: 10px .5%;
+    float: left;
+    margin: .5%;
+    width: 31%;
+}
+
+footer {
+    clear: both;
+}
