@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="2">
+    <title>Forms</title>
+    <style>
+        div {
+            font-size: 15pt;
+            background: yellow;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    (ul.list>li.item$*5)*3
+    (ul.class$>li.item$*5)*3
+    div>(nav>(ul>li.item$*3)*2)*2
+    nav>(div>ul>li.item$*3)*2
+    div>(nav>ul>li.item$*3)+aside
+    (div>(nav>ul>li>a*3)*2)+aside
+    div>ul>li{item$}*4
+    div>bq[class = "xyz"]>p{paragraph $}*3
+    nav>(ul>(li>a{ item$ })*3)*2
+    (ul>li*3>a{item$})*2+bq
+    (div>header>ul>li*2>a)+footer>p
+    div>(header>ul>li*2>a)+footer
+    div+p>div+bq
+    div+p>div+bq
+    div>p+(p>div)+bq
+    div>p>span+em^bq
+    div>(p>span+em)+bq
+    h$[var=itm var2=itm2]{item$}*3
+    p[foo=bar$]{paragraph $}*3
+    ul>li[class=first]{text$$$@300}*5
+    [a='xyz' b="bar"]
+    div[z=xyz b=www]
+    div[class=default]>p{give me a paragraph!}
+    p{click }>a{here}+{ }+lorem
+    p>{click }+a{here}+{ }+lorem
+</body>
+</html>

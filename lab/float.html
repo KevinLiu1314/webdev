@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Float</title>
+    <meta http-equiv="refresh" content="2">
+    <style>
+        .container {
+            width: 60%;
+            min-width: 500px;
+            margin: auto;
+            background: gray;
+            overflow: hidden;
+            /*padding: 10px;*/
+        }
+
+        .content, aside {
+            height: 600px;
+            float: left;
+            /*padding: 10px;*/
+        }
+
+        .content {
+            width: 80%;
+            background: red;
+        }
+
+        aside {
+            width: 20%;
+            min-width: 100px;
+            background: brown;
+            float: left;
+            font-family: arial;
+            color: white;
+        }
+
+        aside ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        aside ul li a {
+            color: white;
+        }
+
+        aside ul li:nth-child(2) {
+            background: green;
+            width: 75px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1> My Second Website </h1>
+
+    <div class="content">
+        <h2> Main Content Heading</h2>
+        <p> This is my blog.</p>
+    </div>
+    <aside>
+        <h2> Sidebar </h2>
+        <ul>
+            <li><a href="#"> Home </a></li>
+            <li><a href="#"> About </a></li>
+            <li><a href="#"> Contact </a></li>
+        </ul>
+    </aside>
+</div>
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="2">
+    <title>Forms</title>
+    <style>
+        .firstform fieldset {
+            width: 200px;
+        }
+
+        .firstform .button {
+            background: purple;
+            color: white;
+            font-weight: bold;
+        }
+
+        .secondform fieldset {
+            background: gray;
+            width: 25%;
+        }
+        
+        .secondform legend {
+            background: green;
+            color: white;
+        }
+
+        .secondform input {
+            background: orange;
+            width: 200px;
+            padding: 0px;
+        }
+        
+        .thirdform ul {
+            padding: 0px;
+        }
+
+        .thirdform label {
+            display: block;
+            color: blue;
+            background: red;
+            font-family: arial;
+
+        }
+
+        .thirdform label, .thirdform input {
+            width: 150px;
+        }
+
+        .thirdform textarea {
+            width: 400px;
+            height: 300px;
+            font-family: courier;
+        }
+
+        .secondform label, .thirdform label {
+            cursor: pointer;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <form class="firstform" action="#">
+        <fieldset>
+            <legend>Gender</legend>
+            <input type="radio" name="sex" value="male" checked>Male</input>
+            <br>
+            <input type="radio" name="sex" value="female">Female</input>
+            <!-- <legend>GenderGender</legend> -->
+        </fieldset>
+
+        <fieldset>
+            <legend>Options</legend>
+            <input type="checkbox" name="transgender">Transgender</input>
+            <br>
+            <input type="checkbox" name="Senior" value="yes" checked>Senior</input>
+        </fieldset>
+
+        <input class="button" type="submit" value="Go!">
+    </form>
+    
+    <br>
+
+    <form class="secondform" action="#">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="firstname">First Name:</label>
+            <br>
+            <input type="text" name="firstname" id="firstname" value="First Name Here">
+            <br>
+            <label for="lastname">Last Name:</label>
+            <br>
+            <input type="text" name="lastname" id="lastname" value="Last Name Here">
+            <br>
+            <input type="submit" value="Go!">
+        </fieldset>
+    </form>
+
+    <br>
+
+    <form class="thirdform" action="#">
+        <ul>
+            <li>
+                <label for="name">Enter Your Name:</label>
+                <input type="text" name="name" id="name">
+            </li>
+            <li>
+                <label for="comments">Your Comments:</label>
+                <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+            </li>
+            <li>
+                <input type="submit" value="Go!">
+            </li>
+        </ul>
+    </form>
+</body>
+</html>
