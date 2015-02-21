@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="2">
+    <title>Exercise 2b</title>
+    <style>
+        .wrap {
+            width: 600px;
+            margin: auto;
+            font-family: arial;
+            color: #2a3744;
+            position: relative;
+            left: -100px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #2a3744;
+        }
+
+        .post-header-category, .post-header-meta {
+            font-size: 15px;
+        }
+
+        .post-header-category {
+            text-transform: uppercase;
+            letter-spacing: .1em;
+            color: #0d7963;
+            font-weight: bold;
+        }
+
+        .post-header-title {
+            font-size: 30px;
+            font-weight: bold;
+            line-height: .9em;
+        }
+
+        .post-header-meta {
+            margin-top: 5px;
+            margin-bottom: 15px;
+            padding: 0;
+        }
+
+        .post-header-meta li {
+            display: inline;
+            color: #8fa6b3;
+            padding-right: 10px;
+        }
+
+        .post-header-meta li:before {
+            content: "•";
+            padding-right: 10px;
+        }
+
+        .post-header-meta li:first-child:before {
+            content: "";
+            padding: 0;
+        }
+
+        .post-body-left img {
+            width: 200px;
+            height: 150px;
+        }
+
+        .post-body-left {
+            float: left;
+            margin-right: 30px;
+        }
+
+        .post-body-right {
+            width: 350px;
+            height: 300px;
+            float: left;
+            line-height: 1.5em;
+            padding: 0px;
+            overflow: scroll;
+        }
+
+        .post-body-right p:first-child {
+            margin-top: -5px;
+        }
+
+        .readmore {
+            font-size: .9em;
+            color: #136fd2;
+            font-weight: bold;
+        }
+
+        .readmore:after {
+            content: "..."
+        }
+
+        a:hover {
+            color: blue;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+        <div>
+            <a class="post-header-category" href="#">WordPress</a>
+            <br/>
+            <a class="post-header-title" href="#">When You're Hacked in WordPress: Staying Safe Later On</a>
+            <ul class="post-header-meta">
+                <li><a href="#">Barış Ünver</a></li>
+                <li>7 hours ago</li>
+                <li>146 shares</li>
+            </ul>
+        </div>
+
+        <div class="post-body">
+            <div class="post-body-left">
+                <a href="#"><img src="img/flyingdragon.jpeg" alt="Flying Dragon"></a>
+            </div>
+            <div class="post-body-right">
+                <p>In the first part of this series, we went through what to do when your website gets hacked. In this second part, we're going to learn about staying safe.</p>
+                <p>In the first part of this series, we went through what to do when your website gets hacked. In this second part, we're going to learn about staying safe.</p>
+                <p>In the first part of this series, we went through what to do when your website gets hacked. In this second part, we're going to learn about staying safe.</p>
+                <a class="readmore" href="#">Read More</a>
+            </div>
+        </div>
+    </div>
+</body><div></div>
+</html>

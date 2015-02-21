@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="2">
+    <title>Exercise 2</title>
+    <style>
+        .wrap {
+            width: 600px;
+            margin: auto;
+            font-family: arial;
+            color: #2a3744;
+            position: relative;
+            left: -100px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .post-header-category a:hover, .post-header-title a:hover, .post-header-meta a:hover, .post-body-right a:hover {
+            color: blue;
+        }
+
+        .post-header-category, .post-header-meta {
+            font-size: 15px;
+        }
+
+        .post-header-category {
+            margin-bottom: 5px;
+        }
+
+        .post-header-category a {
+            text-transform: uppercase;
+            color: #0d7963;
+            font-weight: bold;
+            letter-spacing: .1em;
+        }
+
+        .post-header-title {
+            margin-bottom: 8px;
+        }
+
+        .post-header-title a {
+            font-size: 30px;
+            font-weight: bold;
+            color: black;
+            line-height: .9em;
+        }
+
+        .post-header-meta {
+            padding: 0;
+            margin: 0px 0px 15px 0px;
+            list-style: none;
+        }
+
+        .post-header-meta li {
+            display: inline;
+            padding-right: 5px;
+        }
+
+        .post-header-meta li:before {
+            content: "•";
+            padding-right: 5px;
+        }
+
+        .post-header-meta li:first-child:before {
+            content: "";
+            padding: 0;
+        }
+
+        .post-header-meta a {
+            color: #8e8e8e;
+            font-weight: bold;
+        }
+
+        .post-body-left {
+            /*background: red;*/
+            float: left;
+            margin-right: 30px;
+        }
+
+        .post-body-left img {
+            width: 200px;
+            height: 120px;
+        }
+
+        .post-body-right {
+            /*background: blue;*/
+            width: 60%;
+            float: left;
+        }
+
+        .post-body-right p {
+            margin-top: -5px;
+            padding-top: 0;
+            line-height: 1.5em;
+        }
+
+        .post-body-right a {
+            font-size: .9em;
+            color: #0f56a3;
+            font-weight: bold;
+        }
+
+        .post-body-right a:after {
+            content: "...";
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="post-header">
+            <div class="post-header-category"><a href="#">WordPress</a></div>
+            <div class="post-header-title"><a href="#">When You're Hacked in WordPress: Staying Safe Later On</a></div>
+            <div>
+                <ul class="post-header-meta">
+                    <li><a href="#">Barış Ünver</a></li>
+                    <li>7 hours ago</li>
+                    <li>146 shares</li>
+                </ul>
+            </div>
+        </div>
+        <div class="post-body">
+            <div class="post-body-left">
+                <a href="#"><img src="img/flyingdragon.jpeg" alt="Flying Dragon"></a>
+            </div>
+            <div class="post-body-right">
+                <p>In the first part of this series, we went through what to do when your website gets hacked. In this second part, we're going to learn about staying safe.</p>
+                <p>In the first part of this series, we went through what to do when your website gets hacked. In this second part, we're going to learn about staying safe.</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
